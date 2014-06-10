@@ -1,6 +1,6 @@
-# Foundation Compass Template
+# TVD Essential 
 
-The easiest way to get started with Foundation + Compass.
+A template to quickly get started on a new client website
 
 ## Requirements
 
