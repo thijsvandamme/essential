@@ -1,0 +1,316 @@
+
+<!DOCTYPE html>
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+  <!-- Set the viewport width to device width for mobile -->
+  <meta name="viewport" content="width=device-width" />
+  <title>TVD Essential</title>
+    <!-- Leave this stylesheet, its the default and allows easy updating -->
+   <link rel="stylesheet" href="css/app.css">
+     <!-- Add your own stylesheet here to change the styles -->
+ 
+
+<script src="bower_components/foundation/js/vendor/custom.modernizr.js"></script>
+
+</head>
+
+<body>
+
+<div class="off-canvas-wrap">
+  <div class="inner-wrap">
+   <!-- Replace with Topbar stuff-->
+    <nav class="pre-header hide-for-small">
+      <div class="row">
+
+        <div class="small-12 large-12 columns show-for-medium-only">
+          <h1 class="centered-text"><a href="index.html"><img src="img/logo-white.png" alt="TVD Webdesign" /></a></h1>
+        </div>
+
+        <div class="large-8 columns show-for-large-up">
+          <p><i class="fa fa-phone"></i><a href="tel:+1-202-722-0714">  202-722-0714</a></p>
+        </div>
+
+        <div class="large-3 large-offset-1 columns show-for-large-up">
+          <div class="row collapse">
+            <div class="small-9 columns">
+              <input type="text" placeholder="Value">
+            </div>
+            <div class="small-3 columns">
+              <span class="postfix radius">GO!</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </nav>
+
+    <header class="main-header">
+    <!-- new navigation -->
+
+    <div class="row">
+            <div class="small-12 large-12 columns hide-for-large-up">
+              <a href="#" class="left-off-canvas-toggle menu-icon left"><img src="img/menu.png" alt=""></a>
+              <h4 class="left site-title">[[+site-name]]</h4>
+            </div>
+      <div class="small-3 large-3 columns show-for-large-up"><h1><a href="index.html"><img src="img/logo-white.png" alt="TVD Webdesign"  /></a></h1></div>
+      <div class="small-9 large-9 columns  show-for-large-up">
+        <div class="contain-to-grid sticky" id="top-bar_container">
+          <nav class="top-bar" data-topbar>
+            <section class="top-bar-section">
+                <ul class="right show-for-large-up">
+                  <li class="active"><a href="index.html">Home</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li class="has-dropdown">
+                    <a href="services.html">Services</a>
+                    <ul class="dropdown">
+                      <li><a href="#">Consulting</a></li>
+                      <li><a href="#">Web Design</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="portfolio.html">Portfolio</a></li>
+                  <li><a href="blog.html">Blog</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                </ul>
+              </section>
+          </nav>
+      </div>
+      </div>
+    </div>
+    </header><!--  END MAINHEADER -->
+
+    <!-- Off Canvas Menu -->
+    <aside class="left-off-canvas-menu" id="sidebar">
+        <div class="small-12 large-12 columns show-for-medium-only">
+          <h1 class="centered-text"><a href="index.html"><img src="img/logo-white.png" alt="TVD Webdesign" /></a></h1>
+        </div>
+        <!-- Offcanvas items -->
+        <h4 id="site-title left">[[+site-name]]</h4>
+        <nav id="sideMenu" role="navigation">
+          <ul id="sideMainNav" class="no-bullet">
+            <li><a href="">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a>
+                <ul>
+                  <li><a href="#">Transportation</a></li>
+                  <li><a href="#">Staffing</a></li>
+                  <li><a href="#">Training</a></li>
+                </ul>
+            </li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <a href="index.com" class="site-logo"></a>
+        <p class="copyright">© Copyright 2009-2013 by [[+site-name]]. All Rights Reserved.</p>
+         <ul class="social-links">
+              <li><a href="http://www.facebook.com/"><i class="fa fa-facebook-square"></i></a></li>
+              <li><a href="http://www.twitter.com/"><i class="fa fa-twitter-square"></i></a></li>
+              <li><a href="http://www.linkedin.com/" ><i class="fa fa-linkedin-square"></i></a></li>
+            </ul>
+    </aside>
+<!-- close the off-canvas menu -->
+<!--   <a class="exit-off-canvas"></a> -->
+
+<!--MAIN CONTENT GOES HERE -->
+
+
+ 
+
+<section id="main-content">
+ <div class="row">
+    <div class="large-12 columns">
+      <h1>Frequently Asked Questions</h1>
+      <h4>Sometimes people ask us things. Here's the most common ones.</h4>
+    </div>
+  </div>
+  <div class="row">
+      <div class="medium-12 small-12 columns">      
+
+      <h3 class="subheader">Watching Foundation grow into one of the top 15 open source projects in the world has been amazing. We get a lot of recurring questions about our framework, so we put together this list of FAQs to help you out! </h3>
+<hr> 
+       <h4 id="question-1">1. Why doesn't Foundation support IE7 or IE8? Or: why we don't support a dying species.</h4>
+
+       <p>This is probably the biggest question we get. Consider this: most of today's popular browsers automatically upgrade themselves including Chrome, Firefox and Explorer (starting with 9). IE 8 is the last IE supported on Windows XP, which <a href="http://www.microsoft.com/en-us/windows/enterprise/endofsupport.aspx">Microsoft will officially stop supporting</a> next year. That played a part in our decision.</p>
+
+       <p>Besides that, since Foundation 4, our framework is built mobile-first, meaning it relies on media queries to layer in more complex layouts and components. Browsers or devices that don't support media queries will be restricted to a simple, single-column layout. In some ways, Foundation 4 better supports IE6-7 insomuch as it provides a mobile but not entirely broken experience. If IE8 support is important for your users / customers, you can use <a href="http://foundation.zurb.com/files/foundation-3.2.5.zip ">Foundation 3.2</a>, which supports IE8. It's not mobile first but it's good stuff.
+</p>
+
+<hr>
+       <h4 id="question-2">2. Why is Foundation free? </h4>
+
+       <p>Foundation had its origins in the ZURB style guide, which we used on every client project. Years ago, we decided we needed a framework that allowed us to rapidly prototype. We took our global CSS, jQuery plugins, common elements and best practices, then whipped them into what became Foundation. And once we did that, it took on a life of its own.</p> 
+
+        <p>The simple answer: we love what we do — we help people design better products. We use it for every project we do, whether it's internal or a client one. And if it helps us do what we do, then certainly it can help others too.</p>
+
+<hr>
+       <h4 id="question-3">3. What's the license for Foundation? (Can I use Foundation for something I'm gonna sell?) </h4>
+
+       <p>Foundation is <a href="https://en.wikipedia.org/wiki/MIT_License">MIT licensed</a> and free to use on anything you'd like. You can even fork the framework and make it your own. To give people the most freedom to do what they want with the framework, we had to give them a license to do so. The only thing you can't do is that what you're selling is Foundation. </p>
+
+<hr>
+       <h4 id="question-4">4. Can I use Foundation with [insert CMS of choice here]?</h4>
+
+       <p>The short answer: yes. You can use it with any CMS. Foundation is basically CSS/SCSS, JavaScript and markup structure that can be used on pretty much any project. Figuring out how to integrate it into whatever system you choose is up to you, we can't be experts at everything :) but you can reach out to the <a href="/forum">community</a> to see if someone has already done the legwork!</p>
+
+       <hr>
+       <h4 id="question-5">5. How many people run Foundation?</h4>
+
+       <p>Like we said, we use Foundation for every project we work on. 15 designers and engineers battle test it every day. This gives us great insight into how we should tweak or change things as we move forward. When it comes to writing the core of Foundation, we currently have three people actively working on it. Although we rope in a few other ZURBians when needed.</p>
+
+      <hr>
+       <h4 id="question-6">6. How do I use multiple versions of Foundation? </h4>
+
+       <p>You don't want to use multiple versions on a single project. If you are using different versions for different projects, we've got you covered. You can easily use a system like Bundler to define a version (with the gem version). This lets you compile your CSS against whatever version you'd like. If you're using vanilla CSS, you shouldn't have a problem since you aren't compiling against a gem.</p> 
+
+        <p>One caveat for those of you upgrading a project with CSS: you'll have to download a new version of Foundation and replace your files directly in your project. We always suggest backing your project up before you upgrade — just in case something breaks. </p>
+
+      <hr>
+       <h4 id="question-7">7. Why doesn't Foundation have as much styling as Bootstrap? </h4>
+
+       <p>We purposely left our styles sparse. We didn't want to end up with a world where all the sites looked like Foundation &mdash; that's why we left out a lot of complex styles so you can add to our defaults easily without having to override a bunch of styles baked in. It also helps with integration and alleviates code bloat. </p> 
+
+      <hr>
+       <h4 id="question-8">8. Can I use just the Grid? </h4>
+
+       <p>Yep! If you only want the grid, you can select only that using the customizer or you can import only the grid in your SCSS project. There will be some global files that will come down as well, but those are minimal and needed for the grid to work properly. This includes things like our global box-sizing:border-box reset. </p> 
+
+        <p>CSS: You can visit the <a href="../develop/download.html">download page</a> and uncheck “All Foundation Components”. Then make sure to check “Grid”. This will let you download Foundation and only include the grid.</p>
+
+        <img src="../assets/img/learn/faq/grid-select.png">
+
+        <p>SCSS: If you want to remove everything but the grid, you can use your app.scss file that comes down with a new project. You’ll simply comment out @import “foundation”; and uncomment the globals and the grid components, like so:</p>
+
+        <img src="../assets/img/learn/faq/grid-import.png">
+
+       <hr>
+       <h4 id="question-9">9. How can I contribute to Foundation? </h4>
+
+       <p>The best way for you to contribute is to use the code, find bugs and submit them on Github, where it's reached 12,000 stars. If you are brave enough, try submitting your own fix through a Pull Request and you’ll be listed as one of the hundreds of contributors on Foundation!</p>
+
+       <p>If you want to submit a Pull Request:</p>
+       <ul>
+         <li>Make sure you have a Github account and that you are logged in.</li>
+         <li>Go to Github: <a href="https://github.com/zurb/foundation/pulls">https://github.com/zurb/foundation/pulls</a></li>
+         <li>Click the green “New Pull Request” button.</li>
+         <li>Now follow these awesome instructions that Github has written: <a href="https://help.github.com/articles/using-pull-requests">https://help.github.com/articles/using-pull-requests</a></li>
+         <li>Make sure your descriptions and titles are clear and that you’ve tested your change and included any documentation changes that need to be made.</li>
+       </ul>
+
+        <hr>
+       <h4 id="question-10">10. How do I trim down my files before production? </h4>
+
+       <p>Let's take a look at the CSS first. You have to figure out which plugins or components you aren't using and download a new version from the customizer that only includes the files you need. Then you can remove any reference to them in your development code.</p> 
+
+        <p>For SCSS, you can simply @import only the parts of Foundation you need, making it super easy to trim down to the basics you need. If you don't need a plugin, remove the reference to it in the document and delete the file.</p>
+
+        <hr>
+       <h4 id="question-11">11. Is Foundation tested on [some other device or browser]?</h4>
+
+       <p>We try and be comprehensive in our testing, but there are thousands of devices so it's often just not feasible. We'd love to hear about Foundation's behaviour on other devices so shoot us a line if you see something odd.</p> 
+
+        <hr>
+       <h4 id="question-12">12. Where can I find the Foundation 4 docs?</h4>
+
+       <p>For those of you still working on Foundation 4 sites, the docs are still available. <a href="/docs/v/4.3.2/">View the docs here →</a></p> 
+           
+    </div>
+  <div>
+</section>  
+<!--END MAIN CONTENT -->
+
+
+        <!-- Footer -->
+      <footer class="site-footer">
+        <div class="row"> 
+         <div class="large-12 columns">
+          <div class="row collapse">
+           
+            <div class="large-4 columns footer-widget">
+              <span class="icon" data-icon="&#xe090;"></span>
+              <h4>Speak Up!</h4>
+              <p>Call us @ <a href="tel:+1-202-722-0714">202-722-0714</a></p>
+
+            </div>
+            <div class="large-4 columns footer-widget middle-links">
+              <span class="icon" data-icon="&#x76;"></span>
+              <h4>Stay in Touch!</h4>
+              <p>Keep up on our always evolving services.</p>
+              <div class="row">
+                <div class="row">
+                  <div class="small-11 small-centered columns">
+                    <div class="row collapse ">
+                      <div class="small-8 medium-8 columns">
+                        <input type="text" placeholder="signup@example.com" name="email">
+                      </div>
+                      <div class="small-4 medium-4 columns">
+                        <input class="postfix small button expand" type="submit" value="Sign Up" href="#">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+                  
+            </div>
+            <div class="large-4 columns footer-widget">
+              <span class="icon" data-icon="&#xe01d;"></span>
+              <h4>Discover more!</h4>
+              <ul>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+              </ul>
+            </div>
+          </div>
+            
+        </div>
+        <!-- Twitter Feed -->
+        <div class="row ">
+          <div class="large-12 columns twitter-feed ">
+            
+              <p><i class="fa fa-twitter"></i> Qui consulte encore la deuxième page Google ? Sur le web, rien n’est le fruit du hasard. Le rédactionnel,...
+              <a class="twitter-link" href="http://t.co/jDoYf3rahX" target="_blank" rel="nofollow"><span data-icon="&#xe02b;"></span> http://t.co/jDoYf3rahX</a>
+              <a class="twitter-time" href="http://twitter.com/follow_takaneo"><span data-icon="&#x7d;" ></span> 4 months, 3 weeks ago</a>
+              </p>
+        </div><!-- END Twitter Feed -->
+      </footer>
+
+
+      <div class="footer-copyright">
+        <div class="row">
+          <div class="large-4 push-8 columns">
+            <ul class="social-links">
+              <li><a href="http://www.facebook.com/"><i class="fa fa-facebook-square"></i></a></li>
+              <li><a href="http://www.twitter.com/"><i class="fa fa-twitter-square"></i></a></li>
+              <li><a href="http://www.linkedin.com/" ><i class="fa fa-linkedin-square"></i></a></li>
+            </ul>
+          </div>
+          <div class="large-8 pull-4 columns">
+          <a href="index.com" class="site-logo"></a>
+          <ul class="site-links">
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+            <p class="copyright">© Copyright 2009-2013 by [[+site-name]]. All Rights Reserved.</p>
+          </div>
+        </div>
+      </div> 
+
+  </div>
+</div>
+
+
+ <!-- Place your scripts at the bottom of the page -->  
+  <script src="bower_components/foundation/js/vendor/jquery.js"></script> 
+  <script src="bower_components/foundation/js/vendor/fastclick.js"></script>
+  <script src="bower_components/foundation/js/foundation.min.js"></script>
+  <script>
+    $(document).foundation(); 
+  </script>
+</body>
+
+</html>
